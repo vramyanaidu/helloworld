@@ -3,7 +3,7 @@ language: cpp
 
 # Compiler selection
 compiler:
-  - gcc
+  - g++
 
 install:
-  - gcc hello.cpp -o hello
+  - g++ hello.cpp -o hello
