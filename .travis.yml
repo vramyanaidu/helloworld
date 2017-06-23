@@ -1,9 +1,7 @@
-#Enable C++ support
-language: cpp
+#Enable python support
+language: python
 
-# Compiler selection
-compiler:
-  - g++
+python:
+  - "2.7"
 
-install:
-  - g++ hello.cpp -o hello
+python hello.py
